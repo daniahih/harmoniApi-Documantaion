@@ -4,8 +4,7 @@ export default function ApiDocumentation() {
   return (
     <div>
       <div className="content">
-        <h2>API Documentation</h2>
-        {/* Rest of your API documentation content */}
+        <h1 className="pro-title">Welcome to the Harmony API Documentation</h1>
       </div>
     </div>
   );

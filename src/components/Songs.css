@@ -2,3 +2,15 @@
   margin-left: 13%;
   margin-top: -20%;
 }
+.section {
+  display: flex;
+}
+.title {
+  margin-left: 35%;
+}
+.section2 {
+  margin-left: 10%;
+}
+.doc {
+  margin-left: 28%;
+}

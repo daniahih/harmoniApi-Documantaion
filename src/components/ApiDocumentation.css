@@ -1,14 +1,4 @@
-.sidebar {
-  width: 200px;
-  background-color: #f1f1f1;
-  padding: 20px;
-}
-
-.sidebar ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-.sidebar li {
-  margin-bottom: 10px;
+.pro-title {
+  margin-left: 30%;
+  margin-top: -20%;
 }
