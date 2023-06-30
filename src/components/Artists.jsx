@@ -1,15 +1,15 @@
 import React from "react";
 import "./Songs.css";
-import artistBody from "./artistBode.PNG";
-import Artist from "./artist.PNG";
-import ErrorArtist from "./errorArtist.PNG";
-import CreateArtist from "./createArtist.PNG";
-import ArtistCreated from "./artistCreated.PNG";
-import errorcreateArtist from "./errorartist2.PNG";
-import SearchArtist from "./searchArtist.PNG";
-import SearchArtistSucess from "./searchArtistSuccess.PNG";
-import ErrorSearch from "./errorSearch.PNG";
-export default function Songs() {
+import artistBody from "../photo/artistBode.PNG";
+import Artist from "../photo/artist.PNG";
+import ErrorArtist from "../photo/errorArtist.PNG";
+import CreateArtist from "../photo/createArtist.PNG";
+import ArtistCreated from "../photo/artistCreated.PNG";
+import errorcreateArtist from "../photo/errorartist2.PNG";
+import SearchArtist from "../photo/searchArtist.PNG";
+import SearchArtistSucess from "../photo/searchArtistSuccess.PNG";
+import ErrorSearch from "../photo/errorSearch.PNG";
+export default function Artists() {
   return (
     <div className="container">
       <h1 className="title">Artists API</h1>

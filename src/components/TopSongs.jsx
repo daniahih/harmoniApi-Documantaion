@@ -1,33 +1,32 @@
 import React from "react";
 import "./Songs.css";
-import SearchREQ from "../photo/searchreq.PNG";
-import SearchRes from "../photo/searchres.PNG";
+import topsongReq from "../photo/topsongReq.PNG";
+import topSongRes from "../photo/topSongRes.PNG";
 import errorSearchRes from "../photo/errorSearchRes.PNG";
 
-export default function Search() {
+export default function TopSongs() {
   return (
     <div className="container">
-      <h1 className="title">Search API</h1>
+      <h1 className="title">Top Songs API</h1>
       <p className="doc">
-        The Search API allows you to search for songs and artists based on a
-        search term.
+        This API provides an endpoint to retrieve top songs data
       </p>
       <hr></hr>
       <div className="section">
         <div className="section1">
-          <h1>Search</h1>
-          <p>Description: Search for songs and artists.</p>
-          <h2>URL: /api/v1/search</h2>
+          <h1>Get Top Songs</h1>
+          <p>Description:Retrieve the top songs in Arabic and Hebrew.</p>
+          <h2>URL: /api/v1/topSongs</h2>
           <p>
-            <b>Method</b>: POST
+            <b>Method</b>: GET
           </p>
           <h2>Request Body:</h2>
-          <img src={SearchREQ} alt="SearchREQ" />
+          <img src={topsongReq} alt="topsongReq" />
           <p>
             <h2>Success Response:</h2>
           </p>
           <p>Content:</p>
-          <img src={SearchRes} alt="SearchRes" />
+          <img src={topSongRes} alt="topSongRes" />
           <h2>Error Response:</h2>
           <img src={errorSearchRes} alt="errorSearchRes" />
         </div>

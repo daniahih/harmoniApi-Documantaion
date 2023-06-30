@@ -8,6 +8,7 @@ import Search from "./components/Search";
 import CoverArt from "./components/CoverArt";
 import Lyrics from "./components/Lyrics";
 import Scrapping from "./components/Scrapping";
+import TopSongs from "./components/TopSongs";
 
 const Router = createBrowserRouter([
   {
@@ -22,6 +23,10 @@ const Router = createBrowserRouter([
       {
         path: "/artists",
         element: <Artists />,
+      },
+      {
+        path: "/topSongs",
+        element: <TopSongs />,
       },
       {
         path: "/translation",

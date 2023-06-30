@@ -15,6 +15,9 @@ const MainNavBar = () => {
             <Link to="/artists">artistsRouter</Link>
           </li>
           <li>
+            <Link to="/topSongs">topSongs</Link>
+          </li>
+          <li>
             <Link to="/translation">translationRouter</Link>
           </li>
           <li>

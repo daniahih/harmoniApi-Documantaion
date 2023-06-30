@@ -1,11 +1,11 @@
 import React from "react";
 import "./Songs.css";
-import getSong from "./getSong.png";
-import ErrorGetSong from "./errorgetSong.PNG";
-import CreateSong from "./createSong.PNG";
-import Song from "./Song.PNG";
-import errorCreate from "./errorCreate.PNG";
-import UpdateSong from "./updateSong.PNG";
+import getSong from "../photo/getSong.png";
+import ErrorGetSong from "../photo/errorgetSong.PNG";
+import CreateSong from "../photo/createSong.PNG";
+import Song from "../photo/Song.PNG";
+import errorCreate from "../photo/errorCreate.PNG";
+import UpdateSong from "../photo/updateSong.PNG";
 export default function Songs() {
   return (
     <div className="container">

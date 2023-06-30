@@ -14,3 +14,7 @@
 .doc {
   margin-left: 28%;
 }
+.old-version {
+  background-color: red;
+  width: 700px;
+}
