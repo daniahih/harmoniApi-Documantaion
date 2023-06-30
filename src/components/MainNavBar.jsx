@@ -27,10 +27,10 @@ const MainNavBar = () => {
             <Link to="/coverArt">coverArtRouter</Link>
           </li>
           <li>
-            <Link to="/lyrics">lyricsRoute</Link>
+            <Link to="/lyrics">lyricsRouter</Link>
           </li>
           <li>
-            <Link to="/scrapping">scrappingRoutes</Link>
+            <Link to="/scrapping">scrappingRouter</Link>
           </li>
         </ul>
       </nav>
