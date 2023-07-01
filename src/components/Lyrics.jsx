@@ -1,6 +1,7 @@
 import React from "react";
 import "./Songs.css";
-
+import lyricsREQ from "../photo/lyricsREQ.PNG";
+import lyricsError from "../photo/lyricsError.PNG";
 export default function CoverArt() {
   return (
     <div className="container">
@@ -20,19 +21,15 @@ export default function CoverArt() {
           <p>
             <b>Method</b>: GET
           </p>
-          <h2>URL Parameters</h2>
-          {/* <img src={parmetariesReq} alt="parmetariesReq" /> */}
 
-          <h2>Request Body:</h2>
-          {/* <img src={coverREQ} alt="coverREQ" /> */}
           <p>
             <h2>Success Response:</h2>
           </p>
-          {/* <img src={coverRES} alt="coverRES" /> */}
+          <img src={lyricsREQ} alt="lyricsREQ" />
           <p>Content:</p>
 
           <h2>Error Response:</h2>
-          {/* <img src={covererror} alt="covererror" /> */}
+          <img src={lyricsError} alt="lyricsError" />
         </div>
       </div>
     </div>
